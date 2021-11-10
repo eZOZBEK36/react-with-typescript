@@ -1,0 +1,30 @@
+body {
+	background-color: red !important;
+}
+.px1 {
+	padding: 0 1rem 0 1rem;
+}
+.mt2 {
+	margin: 2rem 0 0 0;
+}
+
+.todo {
+	margin: 0 0 1rem 0;
+}
+
+.todo.completed span {
+	text-decoration: line-through;
+}
+
+.todo label {
+	display: flex;
+	padding: 1rem;
+	cursor: pointer;
+	align-items: center;
+	background-color: #f3f3f3;
+	justify-content: space-between;
+}
+
+.todo i {
+	z-index: 2;
+}
