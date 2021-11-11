@@ -10,21 +10,20 @@ body {
 
 .todo {
 	margin: 0 0 1rem 0;
-}
-
-.todo.completed span {
-	text-decoration: line-through;
-}
-
-.todo label {
-	display: flex;
-	padding: 1rem;
-	cursor: pointer;
-	align-items: center;
-	background-color: #f3f3f3;
-	justify-content: space-between;
-}
-
-.todo i {
-	z-index: 2;
+	&.completed {
+		span {
+			text-decoration: line-through;
+		}
+	}
+	label {
+		display: flex;
+		padding: 1rem;
+		cursor: pointer;
+		align-items: center;
+		background-color: #f3f3f3;
+		justify-content: space-between;
+	}
+	i {
+		z-index: 2;
+	}
 }
